@@ -15,6 +15,5 @@ exports.getNewAddress = wrap(function*(req, res) {
         wallet.getNewAddress(function(err, address) {
             res.send(address);
         });
-        // console.log(backupInfo);
     });
 })
